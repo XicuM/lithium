@@ -1,0 +1,941 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: CITCEA_Charger PU BMS_Master CANCurrentSensor Interface LVBMS Own_Charger EM_ISABEL
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ NewSignal_0002 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0003 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1042 Slave2_spi2_T2: 6 BMS_Master
+ SG_ ntc5_slave2_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave2_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave2_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1030 Slave1_spi3_T1: 8 BMS_Master
+ SG_ ntc4_slave1_spi3 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave1_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave1_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc1_slave1_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 774 Slave1_spi3_V1: 8 BMS_Master
+ SG_ Cell8_s1_spi3 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s1_spi3 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s1_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s1_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s1_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s1_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s1_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s1_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 1040 Slave1_spi2_T2: 6 BMS_Master
+ SG_ ntc5_slave1_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave1_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave1_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1029 Slave5_spi2_T1: 8 BMS_Master
+ SG_ ntc4_slave5_spi2 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave5_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave5_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc1_slave5_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 773 Slave5_spi2_V1: 8 BMS_Master
+ SG_ Cell8_s5_spi2 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s5_spi2 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s5_spi2 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s5_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s5_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s5_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s5_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s5_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 1034 Slave5_spi3_T1: 8 BMS_Master
+ SG_ ntc1_slave5_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave5_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave5_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc4_slave5_spi3 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1028 Slave4_spi2_T1: 8 BMS_Master
+ SG_ ntc4_slave4_spi2 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave4_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave4_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc1_slave4_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 778 Slave5_spi3_V1: 8 BMS_Master
+ SG_ Cell8_s5_spi3 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s5_spi3 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s5_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s5_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s5_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s5_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s5_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s5_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 772 Slave4_spi2_V1: 8 BMS_Master
+ SG_ Cell8_s4_spi2 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s4_spi2 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s4_spi2 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s4_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s4_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s4_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s4_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s4_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 1033 Slave4_spi3_T1: 8 BMS_Master
+ SG_ ntc1_slave4_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave4_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave4_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc4_slave4_spi3 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1027 Slave3_spi2_T1: 8 BMS_Master
+ SG_ ntc4_slave3_spi2 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave3_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave3_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc1_slave3_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 777 Slave4_spi3_V1: 8 BMS_Master
+ SG_ Cell8_s4_spi3 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s4_spi3 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s4_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s4_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s4_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s4_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s4_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s4_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 771 Slave3_spi2_V1: 8 BMS_Master
+ SG_ Cell8_s3_spi2 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s3_spi2 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s3_spi2 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s3_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s3_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s3_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s3_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s3_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 1032 Slave3_spi3_T1: 8 BMS_Master
+ SG_ ntc1_slave3_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave3_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave3_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc4_slave3_spi3 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1026 Slave2_spi2_T1: 8 BMS_Master
+ SG_ ntc4_slave2_spi2 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave2_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave2_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc1_slave2_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 776 Slave3_spi3_V1: 8 BMS_Master
+ SG_ Cell3_s3_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s3_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s3_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell8_s3_spi3 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s3_spi3 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s3_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s3_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s3_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 770 Slave2_spi2_V1: 8 BMS_Master
+ SG_ Cell8_s2_spi2 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s2_spi2 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s2_spi2 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s2_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s2_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s2_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s2_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s2_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 1031 Slave2_spi3_T1: 8 BMS_Master
+ SG_ ntc1_slave2_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave2_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave2_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc4_slave2_spi3 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1025 Slave1_spi2_T1: 8 BMS_Master
+ SG_ ntc4_slave1_spi2 : 55|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc3_slave1_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc2_slave1_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc1_slave1_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 775 Slave2_spi3_V1: 8 BMS_Master
+ SG_ Cell3_s2_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s2_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s2_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s2_spi3 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s2_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s2_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s2_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell8_s2_spi3 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 769 Slave1_spi2_V1: 8 BMS_Master
+ SG_ Cell8_s1_spi2 : 63|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell7_s1_spi2 : 55|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell6_s1_spi2 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell5_s1_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell4_s1_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell3_s1_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell2_s1_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell1_s1_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 1536 ChargerState: 5 CITCEA_Charger
+ SG_ ChargingVolt : 7|16@0+ (0.1,0) [0|600] "V" Vector__XXX
+ SG_ Status_Flags : 39|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ChargingCurr : 23|16@0- (0.1,0) [-40|40] "A" Vector__XXX
+
+BO_ 1616 BMSMaster_CH4: 8 BMS_Master
+ SG_ SOC : 7|8@0+ (1,0) [0|100] "%" Vector__XXX
+ SG_ SLER : 23|10@0+ (1,0) [0|1] "-" Vector__XXX
+ SG_ IDChipMaxTemp : 43|4@0+ (1,0) [0|1] "-" Vector__XXX
+ SG_ ChipMaxTemp : 27|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ VDLTA : 55|16@0+ (1,0) [0|4095] "mV" Vector__XXX
+ SG_ SOH : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 512 BMSMaster_CH3: 8 BMS_Master
+ SG_ IDTmin : 63|8@0+ (1,0) [0|142] "-" Vector__XXX
+ SG_ IDTmax : 55|8@0+ (1,0) [0|142] "-" Vector__XXX
+ SG_ TAvg : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ Tmin : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ TMax : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 336 BMSMaster_CH2: 8 BMS_Master
+ SG_ Vbat : 55|16@0+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ IDmin : 47|8@0+ (1,0) [0|142] "-" Vector__XXX
+ SG_ IDmax : 39|8@0+ (1,0) [0|142] "-" Vector__XXX
+ SG_ Vmin : 23|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+ SG_ Vmax : 7|16@0+ (1,0) [0|65535] "mV" Vector__XXX
+
+BO_ 256 BMSMaster_CH1: 8 BMS_Master
+ SG_ Maximum_Charging_Voltage : 47|16@0- (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Maximum_Charging_Current : 31|16@0- (0.01,0) [0|655.35] "A" Vector__XXX
+ SG_ Error_Flags : 23|8@0+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_Status : 7|16@0+ (1,0) [0|1] "-" Vector__XXX
+ SG_ SDC_AccuIN_8 : 56|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ SDC_AccuOUT_9 : 57|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ SDC_AccuFinalIN_17 : 58|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ SDC_FinalGND_18 : 59|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1043 Slave3_spi2_T2: 6 BMS_Master
+ SG_ ntc5_slave3_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave3_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave3_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1044 Slave4_spi2_T2: 6 BMS_Master
+ SG_ ntc5_slave4_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave4_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave4_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1045 Slave5_spi2_T2: 6 BMS_Master
+ SG_ ntc5_slave5_spi2 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave5_spi2 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave5_spi2 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1046 Slave1_spi3_T2: 6 BMS_Master
+ SG_ ntc5_slave1_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave1_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave1_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1047 Slave2_spi3_T2: 6 BMS_Master
+ SG_ ntc5_slave2_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave2_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave2_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1048 Slave3_spi3_T2: 6 BMS_Master
+ SG_ ntc5_slave3_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave3_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave3_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1049 Slave4_spi3_T2: 6 BMS_Master
+ SG_ ntc5_slave4_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave4_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave4_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 1050 Slave5_spi3_T2: 6 BMS_Master
+ SG_ ntc5_slave5_spi3 : 7|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ ntc6_slave5_spi3 : 23|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+ SG_ pcbNTC_slave5_spi3 : 39|16@0+ (0.01,0) [0|150] "�C" Vector__XXX
+
+BO_ 962 CANCurrent: 8 CANCurrentSensor
+ SG_ Curr : 7|32@0+ (1,-2147480000) [0|0] "mA" Vector__XXX
+ SG_ Error_Indication : 32|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Error_Information : 39|7@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Vacant_Data : 47|24@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 272 PU_Control: 4 PU
+ SG_ PU_AIRPositive_Enable : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_FinalRelay_Enable : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_Precharge_Enable : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_PreCap_Enable : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_ChargedCap_Enable : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_StateRequest_Status : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_CRCCode_Actuator : 16|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 258 BMSMaster_2: 8 BMS_Master
+ SG_ BMSMaster_Total_Voltage : 0|16@1+ (0.01,0) [0|600] "V" Vector__XXX
+ SG_ BMSMaster_Delta_Volt : 16|16@1+ (0.001,0) [0|4096] "mV" Vector__XXX
+ SG_ BMSMaster_Avg_Temp : 32|16@1+ (0.01,0) [0|0] "�C" Vector__XXX
+ SG_ BMSMaster_Delta_Temp : 48|16@1+ (0.01,0) [0|0] "�C" Vector__XXX
+
+BO_ 113 Slave1_spi2_Errors: 2 BMS_Master
+ SG_ Slave1Spi2_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi2_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 114 Slave2_spi2_Errors: 2 BMS_Master
+ SG_ Slave2Spi2_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi2_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 115 Slave3_spi2_Errors: 2 BMS_Master
+ SG_ Slave3Spi2_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi2_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 116 Slave4_spi2_Errors: 2 BMS_Master
+ SG_ Slave4Spi2_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi2_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 117 Slave5_spi2_Errors: 2 BMS_Master
+ SG_ Slave5Spi2_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi2_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 118 Slave1_spi3_Errors: 2 BMS_Master
+ SG_ Slave1Spi3_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave1Spi3_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 259 BMSMaster_3: 8 BMS_Master
+ SG_ BMS_Vmax : 0|8@1+ (0.01,2.56) [0|4.55] "V" Vector__XXX
+ SG_ BMS_Vmin : 8|16@1+ (1,0) [0|4350] "mV" Vector__XXX
+ SG_ BMS_Tmax : 24|16@1+ (0.01,0) [0|0] "�C" Vector__XXX
+ SG_ BMS_VmaxCell_ID : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_VminCell_ID : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_TmaxCell_ID : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 119 Slave2_spi3_Errors: 2 BMS_Master
+ SG_ Slave2Spi3_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave2Spi3_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 120 Slave3_spi3_Errors: 2 BMS_Master
+ SG_ Slave3Spi3_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave3Spi3_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 121 Slave4_spi3_Errors: 2 BMS_Master
+ SG_ Slave4Spi3_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave4Spi3_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 122 Slave5_spi3_Errors: 2 BMS_Master
+ SG_ Slave5Spi3_CRC_Fail : 8|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_OverVoltage_Fail : 9|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_UnderVoltage_Fail : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_OverTemperature_Fail : 11|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_SumOfCells_Fail : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_IntTemp_Fail : 13|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_TimoCells_Fail : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_OpenWire_Fail : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_MuxError_Fail : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_DVoltage_Fail : 1|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_AVoltage_Fail : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Slave5Spi3_OverLap_Fail : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 5 Interface_M5: 3 Interface
+ SG_ Delta_Target : 0|8@1+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ Start_Balancing : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Set_Charging_Current : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 257 BMSMaster_1: 8 BMS_Master
+ SG_ BMSMaster_IMDStatus_Status : 8|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_IMDResistance_Sensor : 11|12@1+ (1,0) [0|4096] "kOhms" Vector__XXX
+ SG_ BMSMaster_IMDOutOfRange_Enable : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_AIRPOS_Int_Status : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_CAPVoltage : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_AIRPOS_Status : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_AIRNEG_Status : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_PRECHRelay_Status : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_FINRelay_Status : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_SC_IN_Status : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_SC_OUT_Status : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_SC_FIN_IN_Status : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_AIRNEG_Int_Status : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_PRECHRelay_Int_Status : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_FINRelay_Int_Status : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_AIRPOS_Error : 48|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_AIRNEG_Error : 50|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_PRECHRelay_Error : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_FINRelay_Error : 54|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_OverVoltage : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_UnderVoltage : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_OverTemperature : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_PCB_OverTemp : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_LostSlaveConnection : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_LostPUConnection : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_IMDFail : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_OW : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_LostCurrentSensor : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_State : 44|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSMaster_OverCurrent : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Tmax_abs : 56|8@1+ (1,0) [0|0] "Celsius" Vector__XXX
+
+BO_ 1000 BMSLV_Data1_Voltages: 8 LVBMS
+ SG_ Vcell1 : 0|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ Vcell2 : 16|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ Vcell3 : 32|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ Vcell4 : 48|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+
+BO_ 1001 BMSLV_Data2_Voltages: 4 LVBMS
+ SG_ Vcell5 : 0|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ Vcell6 : 16|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+
+BO_ 1002 BMSLV_Data3: 8 LVBMS
+ SG_ BMSLV_NTC1 : 0|12@1+ (0.1,0) [0|0] "�C" Vector__XXX
+ SG_ BMSLV_NTC2 : 12|12@1+ (0.1,0) [0|0] "�C" Vector__XXX
+ SG_ BMSLV_NTC3 : 24|12@1+ (0.1,0) [0|0] "�C" Vector__XXX
+ SG_ BMSLV_NTCInternal : 36|12@1+ (0.1,0) [0|0] "�C" Vector__XXX
+ SG_ BMSLV_LVMS_RelayStatus : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_PU_RelayStatus : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_Charger_RelayStatus : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1003 BMSLV_Data4: 8 LVBMS
+ SG_ BMSLV_Vpack : 0|16@1+ (0.001,0) [0|0] "Volts" Vector__XXX
+ SG_ BMSLV_LVMS_PositiveCurrent : 16|12@1+ (0.001,0) [0|0] "Ampers" Vector__XXX
+ SG_ BMSLV_LVMS_NegativeCurrent : 28|12@1+ (0.001,0) [0|0] "Ampers" Vector__XXX
+ SG_ BMSLV_PU_PositiveCurrent : 40|12@1+ (0.001,0) [0|0] "Ampers" Vector__XXX
+ SG_ BMSLV_PU_NegativeCurrent : 52|12@1+ (0.001,0) [0|0] "Ampers" Vector__XXX
+
+BO_ 1004 BMSLV_Data5: 8 LVBMS
+ SG_ BMSLV_ChargingCurrent : 0|12@1+ (0.01,0) [0|0] "Ampers" Vector__XXX
+ SG_ BMSLV_ChargerVoltage : 12|12@1+ (0.01,0) [0|0] "Volts" Vector__XXX
+ SG_ LastEvent : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CRC_Error : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OverVoltage_Error : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ UnderVoltage_Error : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OverTemperature_Error : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OpenWire_Error : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlownMosfetLVMS_Error : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LTC6811OverTemperature_Error : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSStatusWord : 40|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_PU_FuseStatus : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_LVMS_FuseStatus : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_Charger_FuseStatus : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_Cell1 : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_Cell2 : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_Cell3 : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_Cell4 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_Cell5 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_Cell6 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_Cell7 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_NTC1 : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_NTC2 : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_NTC3 : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMSLV_OpenWire_NTCInternal : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Powering_the_car : 60|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlownMosfetPU_Error : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlownMosfetCharger_Error : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1005 PU_Requests_LVBMS: 1 PU
+ SG_ PU_TurnOffPURelay_Timeout : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_LMVS_RelayRequest : 1|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PU_PU_Relay_Intentional : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Balancing_Allowed : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Start_Balancing_LVBMS : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 785 Slave1_spi2_V2: 6 BMS_Master
+ SG_ Cell14_s1_spi2 : 47|8@0+ (0,0) [0|0] "V" Vector__XXX
+ SG_ Cell13_s1_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s1_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s1_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s1_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s1_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 786 Slave2_spi2_V2: 6 BMS_Master
+ SG_ Cell14_s2_spi2 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell13_s2_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s2_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s2_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s2_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s2_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 787 Slave3_spi2_V2: 6 BMS_Master
+ SG_ Cell14_s3_spi2 : 47|8@0+ (0,0) [0|0] "V" Vector__XXX
+ SG_ Cell13_s3_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s3_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s3_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s3_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s3_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 788 Slave4_spi2_V2: 6 BMS_Master
+ SG_ Cell14_s4_spi2 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell13_s4_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s4_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s4_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s4_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s4_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 789 Slave5_spi2_V2: 6 BMS_Master
+ SG_ Cell14_s5_spi2 : 47|8@0+ (0,0) [0|0] "V" Vector__XXX
+ SG_ Cell13_s5_spi2 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s5_spi2 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s5_spi2 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s5_spi2 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s5_spi2 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 790 Slave1_spi3_V2: 6 BMS_Master
+ SG_ Cell14_s1_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell13_s1_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s1_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s1_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s1_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s1_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 791 Slave2_spi3_V2: 6 BMS_Master
+ SG_ Cell14_s2_spi3 : 47|8@0+ (0,0) [0|0] "V" Vector__XXX
+ SG_ Cell13_s2_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s2_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s2_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s2_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s2_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 792 Slave3_spi3_V2: 6 BMS_Master
+ SG_ Cell14_s3_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell13_s3_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s3_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s3_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s3_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s3_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 793 Slave4_spi3_V2: 6 BMS_Master
+ SG_ Cell14_s4_spi3 : 47|8@0+ (0,0) [0|0] "V" Vector__XXX
+ SG_ Cell13_s4_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s4_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s4_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s4_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s4_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 794 Slave5_spi3_V2: 6 BMS_Master
+ SG_ Cell14_s5_spi3 : 47|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell13_s5_spi3 : 39|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell12_s5_spi3 : 31|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell11_s5_spi3 : 23|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell10_s5_spi3 : 15|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+ SG_ Cell9_s5_spi3 : 7|8@0+ (0.01,2.56) [2|4.55] "V" Vector__XXX
+
+BO_ 1537 ChargerMCU_1: 4 Own_Charger
+ SG_ SDC_PostButton_to_PowerInterlock : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SDC_PowerInterlock_to_Accu : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Start_Button : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Aux_Button : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Positive_Relay_State : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Negative_Relay_State : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Precharge_Relay_State : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Charger_State : 8|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Charging_Current : 10|6@1+ (0.1,0) [0|6.3] "A" Vector__XXX
+ SG_ Charging_Voltage : 16|16@1+ (1,0) [0|65536] "V" Vector__XXX
+
+BO_ 1313 EM_ISBH_DATA_CURR: 6 EM_ISABEL
+ SG_ ISBH_CurrID : 0|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ CURR_BitDataStatus : 8|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ ISBH_Current : 16|32@1- (0.001,0) [-32000|32000] "A" Vector__XXX
+
+BO_ 1314 EM_ISBH_DATA_VOLTAGE: 6 EM_ISABEL
+ SG_ ISBH_Voltage_ID : 0|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ VOLT_BitDataStatus : 8|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ ISBH_VOLTAGE : 16|32@1- (0.001,0) [0|0] "V" Vector__XXX
+
+BO_ 1318 EM_ISBH_DATA_POWER: 6 EM_ISABEL
+ SG_ ISBH_Power_ID : 0|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ POWER_BitDataStatus : 8|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ ISBH_Power : 16|32@1- (1,0) [0|0] "W" Vector__XXX
+
+BO_ 1319 EM_ISBH_DATA_CurrentCount: 6 EM_ISABEL
+ SG_ ISBH_CCount_ID : 0|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ CCount_BitDataStatus : 8|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ ISBH_CurrCount : 16|32@1- (1,0) [0|0] "As" Vector__XXX
+
+BO_ 1320 EM_ISBH_DATA_PowerCount: 6 EM_ISABEL
+ SG_ ISBH_PWRCount_ID : 0|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ PWRCount_BitDataStatus : 8|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ ISBH_PWRCount : 16|32@1- (1,0) [0|0] "Wh" Vector__XXX
+
+BO_ 1297 EM_ISBH_Response: 8 EM_ISABEL
+ SG_ EM_ISBH_Response_BD0 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Response_BD1 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Response_BD2 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Response_BD3 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Response_BD4 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Response_BD5 : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Response_BD6 : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Response_BD7 : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1041 EM_ISBH_Command: 8 EM_ISABEL
+ SG_ EM_ISBH_Command_BD0 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Command_BD1 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Command_BD2 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Command_BD3 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Command_BD4 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Command_BD5 : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Command_BD6 : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EM_ISBH_Command_BD7 : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1315 EM_ISBH_DATA_VOLTAGE2: 6 EM_ISABEL
+ SG_ ISBH_Voltage_ID : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ VOLT_BitDataStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ ISBH_VOLTAGE : 16|32@1- (0.001,0) [0|0] "" Vector__XXX
+
+BO_ 1316 EM_ISBH_DATA_VOLTAGE3: 6 EM_ISABEL
+ SG_ ISBH_Voltage_ID : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ VOLT_BitDataStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ ISBH_VOLTAGE : 16|32@1- (0.001,0) [0|0] "" Vector__XXX
+
+BO_ 1317 EM_ISBH_DATA_TEMP: 6 EM_ISABEL
+ SG_ ISBH_Temperature_ID : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ TEMP_BitDataStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ ISBH_Temp : 16|32@1- (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ BU_ CITCEA_Charger "CITCEA Charger";
+CM_ BU_ PU "";
+CM_ BU_ BMS_Master "AccuECU";
+CM_ BU_ CANCurrentSensor "LEM CAB 300-C/SP3-002";
+CM_ BU_ Interface "";
+CM_ BU_ LVBMS "Low Voltage BMS
+";
+CM_ BO_ 1042 "NTC temperatures Slave 2 spi2 (3 ntc + ntc pcb)";
+CM_ BO_ 1030 "NTC temperatures Slave 1 spi3 (4 ntc)";
+CM_ BO_ 774 "Cell voltages from Slave 1 spi3 (8 cells)";
+CM_ BO_ 1040 "NTC temperatures Slave 1 spi2 (3 ntc + ntc pcb)";
+CM_ BO_ 1029 "NTC temperatures Slave 5 spi2 (4 ntc)";
+CM_ BO_ 773 "Cell voltages from Slave 5 spi2 (8 cells)";
+CM_ BO_ 1034 "NTC temperatures Slave 5 spi3 (4 ntc)";
+CM_ BO_ 1028 "NTC temperatures Slave 4 spi2 (4 ntc)";
+CM_ BO_ 778 "Cell voltages from Slave 5 spi3 (8 cells)";
+CM_ BO_ 772 "Cell voltages from Slave 4  spi2 (8 cells)";
+CM_ BO_ 1033 "NTC temperatures Slave 4 spi3 (4 ntc)";
+CM_ BO_ 1027 "NTC temperatures Slave 3 spi2 (4 ntc)";
+CM_ BO_ 777 "Cell voltages from Slave 4 spi3 (8 cells)";
+CM_ BO_ 771 "Cell voltages from Slave 3  spi2 (8 cells)";
+CM_ BO_ 1032 "NTC temperatures Slave 3 spi3 (4 ntc)";
+CM_ BO_ 1026 "NTC temperatures Slave 2 spi2 (4 ntc)";
+CM_ BO_ 776 "Cell voltages from Slave 3 spi3 (8 cells)";
+CM_ BO_ 770 "Cell voltages from Slave 2 spi2 (8 cells)";
+CM_ BO_ 1031 "NTC temperatures Slave 2 spi3 (4 ntc)";
+CM_ BO_ 1025 "NTC temperatures Slave 1 spi2 (4 ntc)";
+CM_ SG_ 1025 ntc4_slave1_spi2 "Temperature NTC 4";
+CM_ SG_ 1025 ntc3_slave1_spi2 "Temperature NTC 3";
+CM_ SG_ 1025 ntc2_slave1_spi2 "Temperature NTC 2";
+CM_ SG_ 1025 ntc1_slave1_spi2 "Temperature NTC 1";
+CM_ BO_ 775 "Cell voltages from Slave 2 spi3 (8 cells)";
+CM_ BO_ 769 "Cell voltages from Slave 1 spi2 (8 cells)";
+CM_ BO_ 1536 "Charger information and data (REVISAR SIGNED O NO EL CURRENT)";
+CM_ SG_ 1536 ChargingVolt "Charging voltage";
+CM_ SG_ 1536 Status_Flags "b0: Hardware failure;
+b1: OT;
+b2: InputVoltage;
+b3: Stating State;
+b4: Communication TimeOut
+
+(1 is not ok, 0 is ok)";
+CM_ SG_ 1536 ChargingCurr "Charging current";
+CM_ BO_ 1616 "SOC, delta and slave errors ";
+CM_ SG_ 1616 SLER "bx: 1 (Error in Slave x+1) / 0 (All OK in Slave x+1) (x 0->9 slaves)";
+CM_ SG_ 1616 IDChipMaxTemp "Chip with maximum temperature (Slave num)";
+CM_ SG_ 1616 ChipMaxTemp "Maximum temperature of the hottest chip";
+CM_ SG_ 1616 VDLTA "Battery difference between the maximum and the minimum cell voltage";
+CM_ BO_ 512 "MIN and MAX temperature and AVG Temp (FOR CHARGER)";
+CM_ SG_ 512 IDTmin "Identifier of the cell with MIN temperature (bits 7 to 4 : slave num / bits 3 to 0 : cell num)";
+CM_ SG_ 512 IDTmax "Identifier of the cell with MAX temperature (bits 7 to 4 : slave num / bits 3 to 0 : cell num)";
+CM_ SG_ 512 TAvg "Average temperature of the battery pack";
+CM_ SG_ 512 Tmin "Minimum temperature of the battery pack";
+CM_ SG_ 512 TMax "Maximum temperature of the battery pack";
+CM_ BO_ 336 "MIN and MAX voltages and battery voltage (FOR CHARGER)";
+CM_ SG_ 336 Vbat "Battery voltage";
+CM_ SG_ 336 IDmin "ID cell with Vmin (bits 7 to 4 : slave num / bits 3 to 0 : cell num)";
+CM_ SG_ 336 IDmax "ID cell with Vmax (bits 7 to 4 : slave num / bits 3 to 0 : cell num)";
+CM_ SG_ 336 Vmin "Minimum cell voltage";
+CM_ SG_ 336 Vmax "Maximum cell voltage";
+CM_ BO_ 256 "BMS Status, Error Flags, Relays control ( FOR CHARGER)";
+CM_ SG_ 256 Maximum_Charging_Voltage "Master Parameter";
+CM_ SG_ 256 Maximum_Charging_Current "Master Parameter";
+CM_ SG_ 256 Error_Flags "b0: UV ; 
+b1: OV ; 
+b2: OC/UC ; 
+b3: Master watchdog ; 
+b4: OT ; 
+b5: PCB Temp ; 
+b6: LostSlaveConnection(slaves CAN TimeOut); 
+b7: Master Overwatch 
+
+(1 fail, 0 ok)";
+CM_ SG_ 256 BMS_Status "b0: CH(1)/DCH(0) ; 
+b1: sleep(1)/normal(0) ; 
+b2: IMD ok (1)/fail(0); 
+b3: BMS ok (1)/fail(0); 
+b4: AIR+ state - closed(1)/opened(0); 
+b5: AIR- state - closed(1)/opened(0); 
+b6: Precharge relay state - closed(1)/opened(0); 
+b7: AIR+ intentional state - closed(1)/opened(0); 
+b8: Precharge relay intentional state - closed(1)/opened(0); 
+b9: FIN GNDl relay intentional state - closed(1)/opened(0); 
+b10: SC Final IN state OK(1)/SC Open(0); 
+b11: SC IN state OK (1) / SC Open(0); 
+b12: SC OUT state OK(1) / SC open(0); 
+b13: Error in slaves (1) / all slaves OK (0); 
+b14: CAN Current Timeout Fail (1) / OK (0);
+b15: CAN Relays control (charger or Main ECU) Timeout Fail (1)/ OK (0)";
+CM_ BO_ 1043 "NTC temperatures Slave 3 spi2 (3 ntc + ntc pcb)";
+CM_ BO_ 1044 "NTC temperatures Slave 4 spi2 (3 ntc + ntc pcb)";
+CM_ BO_ 1045 "NTC temperatures Slave 5 spi2 (3 ntc + ntc pcb)";
+CM_ BO_ 1046 "NTC temperatures Slave 1 spi3 (3 ntc + ntc pcb)";
+CM_ BO_ 1047 "NTC temperatures Slave 2 spi3 (3 ntc + ntc pcb)";
+CM_ BO_ 1048 "NTC temperatures Slave 3 spi3 (3 ntc + ntc pcb)";
+CM_ BO_ 1049 "NTC temperatures Slave 4 spi3 (3 ntc + ntc pcb)";
+CM_ BO_ 1050 "NTC temperatures Slave 5 spi3 (3 ntc + ntc pcb)";
+CM_ BO_ 962 "Can Current sensor data ";
+CM_ SG_ 962 Curr "Current drawn from battery";
+CM_ SG_ 962 Error_Indication "Error indicator";
+CM_ SG_ 962 Error_Information "RxQuality (0 to 100%)
+(See LEM CAB 300-C/SP3-002 datasheet)";
+CM_ SG_ 962 Vacant_Data "Vacant data. All fixed to 0";
+CM_ BO_ 272 "PU relays control (ACCU: Read)";
+CM_ SG_ 272 PU_StateRequest_Status "No est� implementat";
+CM_ SG_ 272 PU_CRCCode_Actuator "Per si vol�em ficar un CRC de protecci� amb aquest missatge (no est� implementat)";
+CM_ BO_ 258 "BMS Data";
+CM_ SG_ 258 BMSMaster_Total_Voltage "Total Battery Voltage";
+CM_ SG_ 258 BMSMaster_Delta_Volt "Max difference between Vmin and Vmax";
+CM_ SG_ 258 BMSMaster_Avg_Temp "Average temperature of the battery";
+CM_ SG_ 258 BMSMaster_Delta_Temp "Difference between Tmax and Tmin";
+CM_ BO_ 113 "Slave 1 SPI2 errors to Charger & PU";
+CM_ BO_ 114 "Slave 2 SPI2 errors to Charger & PU";
+CM_ BO_ 115 "Slave 3 SPI2 errors to Charger & PU";
+CM_ BO_ 116 "Slave 4 SPI2 errors to Charger & PU";
+CM_ BO_ 117 "Slave 5 SPI2 errors to Charger & PU";
+CM_ BO_ 118 "Slave 1 SPI3 errors to Charger & PU";
+CM_ BO_ 259 "Battery Data";
+CM_ SG_ 259 BMS_Vmax "";
+CM_ SG_ 259 BMS_VmaxCell_ID "First bit SPI (0 for SPI2, 1 for SPI3), 3 bits slave number, second 4 bits cell number.";
+CM_ SG_ 259 BMS_VminCell_ID "First bit SPI (0 for SPI2, 1 for SPI3), 3 bits slave number, second 4 bits cell number.";
+CM_ SG_ 259 BMS_TmaxCell_ID "First bit SPI (0 for SPI2, 1 for SPI3), 3 bits slave number, second 4 bits cell number.
+";
+CM_ BO_ 119 "Slave 2 SPI3 errors to Charger & PU";
+CM_ BO_ 120 "Slave 3 SPI3 errors to Charger & PU";
+CM_ BO_ 121 "Slave 4 SPI3 errors to Charger & PU";
+CM_ BO_ 122 "Slave 5 SPI3 errors to Charger & PU";
+CM_ BO_ 5 "Delta Target, Balancing State (ACCU: Read)";
+CM_ SG_ 5 Delta_Target "Delta target";
+CM_ SG_ 5 Start_Balancing "(1) Start Balancing / (0) Stop Balancing";
+CM_ SG_ 5 Set_Charging_Current "0 -> 0A
+255 -> 5A";
+CM_ BO_ 257 "BMS Main Errors, IMD, Relays, SDC";
+CM_ SG_ 257 BMSMaster_IMDOutOfRange_Enable "Out of range if Resistance > 10 Mohms";
+CM_ SG_ 257 BMSMaster_AIRPOS_Int_Status "";
+CM_ SG_ 257 BMSMaster_AIRPOS_Status "(1)  closed / (0) opened";
+CM_ SG_ 257 BMSMaster_AIRNEG_Status "(1)  closed / (0) opened
+";
+CM_ SG_ 257 BMSMaster_PRECHRelay_Status "(1)  closed / (0) opened";
+CM_ SG_ 257 BMSMaster_FINRelay_Status "(1)  closed / (0) opened";
+CM_ SG_ 257 BMSMaster_AIRPOS_Error "0: NONE
+1: MISMATCH
+2: LRC";
+CM_ SG_ 257 BMSMaster_AIRNEG_Error "0: NONE
+1: MISMATCH
+2: LRC";
+CM_ SG_ 257 BMSMaster_PRECHRelay_Error "0: NONE
+1: MISMATCH
+2: LRC";
+CM_ SG_ 257 BMSMaster_FINRelay_Error "0: NONE
+1: MISMATCH
+2: LRC";
+CM_ SG_ 257 BMSMaster_State "0: IDLE
+1: R2D
+2: ZC_ERROR
+3: POWER_ERROR";
+CM_ BO_ 1000 "Cell Voltages C1,C2,C3,C4
+";
+CM_ BO_ 1001 "Cell Voltages C5,C6";
+CM_ BO_ 1002 "Cell temperatures and relay status";
+CM_ BO_ 1003 "Battery pack voltage and BMS consumptions
+";
+CM_ BO_ 1004 "Charger and all errors
+";
+CM_ BO_ 1005 "LVBMS Relay control through PU
+
+";
+CM_ BO_ 785 "Cell voltages from Slave 1 spi2 (6 cells)";
+CM_ SG_ 785 Cell14_s1_spi2 "13 cell slave";
+CM_ BO_ 786 "Cell voltages from Slave 2 spi2 (6 cells)";
+CM_ BO_ 787 "Cell voltages from Slave 3 spi2 (6 cells)";
+CM_ SG_ 787 Cell14_s3_spi2 "13 cell slave";
+CM_ BO_ 788 "Cell voltages from Slave 4 spi2 (6 cells)";
+CM_ BO_ 789 "Cell voltages from Slave 5 spi2 (6 cells)";
+CM_ SG_ 789 Cell14_s5_spi2 "13 cell slave";
+CM_ BO_ 790 "Cell voltages from Slave 1 spi3 (6 cells)";
+CM_ BO_ 791 "Cell voltages from Slave 2 spi3 (6 cells)";
+CM_ SG_ 791 Cell14_s2_spi3 "13 cell slave";
+CM_ BO_ 792 "Cell voltages from Slave 3 spi3 (6 cells)";
+CM_ BO_ 793 "Cell voltages from Slave 4 spi3 (6 cells)";
+CM_ SG_ 793 Cell14_s4_spi3 "13 cell slave";
+CM_ BO_ 794 "Cell voltages from Slave 5 spi3 (6 cells)";
+CM_ BO_ 1537 "Charger Data";
+CM_ BO_ 1313 "Isabellenhuete current measurement";
+CM_ SG_ 1313 ISBH_CurrID "Identifier for the current measurement";
+CM_ SG_ 1313 CURR_BitDataStatus "Current measurement status ";
+CM_ SG_ 1313 ISBH_Current "Current measurement";
+CM_ BO_ 1314 "Isabellenhuete voltage measurement";
+CM_ SG_ 1314 ISBH_Voltage_ID "Identifier for the voltage measurement";
+CM_ SG_ 1314 VOLT_BitDataStatus "Voltage measurement status ";
+CM_ SG_ 1314 ISBH_VOLTAGE "Voltage measurement";
+CM_ BO_ 1318 "Isabellenhuete power measurement";
+CM_ SG_ 1318 ISBH_Power_ID "Identifier for the power measurement";
+CM_ SG_ 1318 POWER_BitDataStatus "Power measurement status";
+CM_ SG_ 1318 ISBH_Power "Power measurement";
+CM_ BO_ 1319 "Isabellenhuete current counter measurement";
+CM_ SG_ 1319 ISBH_CCount_ID "Identifier for the current counter measurement";
+CM_ SG_ 1319 CCount_BitDataStatus "Current counter measurement status";
+CM_ SG_ 1319 ISBH_CurrCount "Current counter measurement";
+CM_ BO_ 1320 "Isabellenhuete power counter measurement";
+CM_ SG_ 1320 ISBH_PWRCount_ID "Identifier for the power count measurement";
+CM_ SG_ 1320 PWRCount_BitDataStatus "Power counter measurement status";
+CM_ SG_ 1320 ISBH_PWRCount "Power counter measurement";
+CM_ BO_ 1297 "Response to SET and GET command messages. A response-ID-byte is included for identification.";
+CM_ BO_ 1041 "Function commands, SET and GET commands. A command-ID-byte is included for identification.";
+CM_ BO_ 1315 "Isabellenhuete voltage measurement";
+CM_ SG_ 1315 ISBH_Voltage_ID "Identifier for the voltage measurement";
+CM_ SG_ 1315 VOLT_BitDataStatus "Voltage measurement status ";
+CM_ SG_ 1315 ISBH_VOLTAGE "Voltage measurement";
+CM_ BO_ 1316 "Isabellenhuete voltage measurement";
+CM_ SG_ 1316 ISBH_Voltage_ID "Identifier for the voltage measurement";
+CM_ SG_ 1316 VOLT_BitDataStatus "Voltage measurement status ";
+CM_ SG_ 1316 ISBH_VOLTAGE "Voltage measurement";
+CM_ BO_ 1317 "Isabellenhuete internal temperature measurement";
+CM_ SG_ 1317 ISBH_Temperature_ID "Identifier for the internal temperature measurement";
+CM_ SG_ 1317 TEMP_BitDataStatus "Internal temperature measurement status";
+CM_ SG_ 1317 ISBH_Temp "Internal temperature measurement";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+BA_ "BusType" "";
+VAL_ 257 BMSMaster_IMDStatus_Status 0 "Short_Circuit" 1 "Normal_State" 2 "Under_Voltage" 3 "Speed_Start" 4 "Device_Error" 5 "Fault_Earth" ;
+VAL_ 257 BMSMaster_IMDFail 0 "IMD_OK" 1 "IMD_FAIL" ;
+VAL_ 1002 BMSLV_LVMS_RelayStatus 0 "Relay_OPEN" 1 "Relay_CLOSED" ;
+VAL_ 1002 BMSLV_PU_RelayStatus 0 "Relay_OPEN" 1 "Relay_CLOSED" ;
+VAL_ 1002 BMSLV_Charger_RelayStatus 0 "Relay_OPEN" 1 "Relay_CLOSED" ;
+VAL_ 1005 PU_TurnOffPURelay_Timeout 0 "Keep_PU_Relay_Closed" 1 "Open_PU_Relay" ;
+
